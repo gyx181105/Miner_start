@@ -1,0 +1,16 @@
+{
+  "accounts": {
+    "0x1234567890abcdef1234567890abcdef12345678": {
+      "balance": 9420
+    },
+    "0xabcdefabcdefabcdefabcdefabcdefabcdef": {
+      "balance": 230
+    },
+    "0x1111111111111111111111111111111111111111": {
+      "balance": 5000
+    },
+    "miner1": {
+      "balance": 14210
+    }
+  }
+}

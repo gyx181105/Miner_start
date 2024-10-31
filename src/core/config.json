@@ -1,0 +1,32 @@
+{
+  "blockchain": {
+    "chainDataPath": "./chaindata/blockchain.json",
+    "difficulty": 5,
+    "miningInterval": 5000
+  },
+  "reward": {
+    "minerReward": 33,
+    "rewardAddress": "0x839c8Ca3AA6c753D13007EDe4D28ef7B95878916",
+    "calculateRewardAPI": "http://113.250.13.252:8003/pow/calculate",
+    "distributeRewardAPI": "http://113.250.13.252:8003/pow/distribute"
+  },
+  "network": {
+    "serverIP": "113.250.13.252",
+    "p2pServerPort": 6001,
+    "rpcPort": 9000,
+    "hashServerIP": "113.250.13.252",
+    "hashServerPort": 8000
+  },
+  "miner": {
+    "p2pMinerIP": "192.168.100.100",
+    "p2pMinerPort": 6003,
+    "minerIP": "192.168.100.100"
+  },
+  "wallet": {
+    "minerAddress": "0xe571fc087EBb1fBd59C4871318d18735434B12F8"
+  },
+  "mining": {
+    "algorithm": "pow",
+    "cpuUtilization": 0.5
+  }
+}

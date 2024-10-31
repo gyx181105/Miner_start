@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",        // 使用CommonJS模块系统
+      "target": "es6",             // 将TS编译为ES6代码
+      "outDir": "./dist",          // 编译后的文件输出目录
+      "rootDir": "./src",          // 源文件的根目录
+      "strict": true,              // 启用严格类型检查
+      "esModuleInterop": true      // 允许对CommonJS和ES模块的互操作
+    },
+    "include": ["src/**/*"],       // 包含所有src文件夹中的文件
+    "exclude": ["node_modules"]    // 排除 node_modules 文件夹
+  }
